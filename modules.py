@@ -13,23 +13,25 @@ MODULES
 7. messagebox
 8. turtle'''
 
-# import tkinter 
-# from tkinter import ttk
-# import tkinter.colorchooser
+'''COLORCHOOSER MODULE'''
+import tkinter 
+from tkinter import ttk
+import tkinter.colorchooser
 
-# win = tkinter.Tk()
-# win.title('Tkinter color chooser')
+win = tkinter.Tk()
+win.title('Tkinter color chooser')
 
-# def changecolor():
-#     colors = tkinter.colorchooser.askcolor()
-#     win.configure(bg=colors[1])
+def changecolor():
+    colors = tkinter.colorchooser.askcolor()
+    win.configure(bg=colors[1])
 
-# ttk.Button(win,text='Pick Color',command=changecolor).pack()
-# win.mainloop()
+ttk.Button(win,text='Pick Color',command=changecolor).pack()
+win.mainloop()
 
+'''FONT'''
 #georgia = tkFont.Font(family='georgia',size=30,weight='bold')
 
-
+'''MESSAGEBOX MODULE'''
 import tkinter as ttk
 from tkinter import messagebox
 
